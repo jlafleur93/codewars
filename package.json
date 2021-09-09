@@ -3,6 +3,7 @@
     "mocha": "^9.1.0"
   },
   "scripts": {
+    "mocha": "node_modules/.bin/mocha",
     "test": "mocha **/*.spec.js"
   },
   "dependencies": {
